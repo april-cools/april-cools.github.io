@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('alegreya.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('alegreya_bold.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --light-yellow: #fbfbd0;
+    --light-brown: #c9a87e;
+    --dark-yellow: #e6c155;
+    --dark-brown: #473027;
+    --grey: #ccc;
+}
+
+body {
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+a, a:visited {
+    color: var(--dark-brown);
+}
+
+a:hover, a:focus {
+    color: black;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline dotted;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+.highlight {
+    background: var(--light-yellow);
+    box-shadow: 0px 0px 10px 3px var(--grey);
+}
+
+header {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    max-width: 900px;
+}
+
+.hyphenate {
+    hyphens: auto;
+    text-align: justify;
+}
+
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1.2em;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.masonry article {
+    background-color: var(--light-yellow);
+    padding: 1em;
+    box-shadow: 0px 0px 5px 1px var(--grey);
+}
+
+.author::before {
+    content: '– '
+}
+
+.author {
+    color: var(--dark-brown);
+    text-align: right;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+footer {
+    font-size: .8em;
+    color: #444;
+}

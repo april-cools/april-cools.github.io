@@ -1,0 +1,123 @@
+---
+---
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>April Cools' Club</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <picture>
+                <source srcset="aprilcoolsclub.webp" type="image/webp">
+                <img src="aprilcoolsclub.png" width="2000" height="2000"
+                    alt="A cartoon-style drawing of a shepherd dog on a skateboard, wearing sunglasses and a white shirt saying “April Cools'”">
+            </picture>
+        </div>
+    </header>
+    <section class="highlight">
+        <div class="container hyphenate">
+            <h1>The <em>April Cools' Club</em> Manifesto</h1>
+
+            <p>It started with an idea.</p>
+
+            <p>An idea to make April Fools a day that's more than just a worldwide cringefest. An idea that quickly
+                attracted sympathizers. We got started with a small group of people in 2022, but in the following years,
+                anyone can participate!</p>
+
+            <p>The idea is pretty simple: on April Fools' Day (also known as “April 1st”), a participant produces
+                genuine content that's very different from their normal produced content. It could be a different
+                format, a different topic, a different style, anything. The constraints are:</p>
+
+            <ol>
+                <li>It is something they normally wouldn't do.</li>
+                <li>It is totally genuine: no irony to it.</li>
+                <li>It is up to their usual standards of quality.</li>
+            </ol>
+
+            <p>For example, some might normally post complex software engineering content to their blog. But this April
+                Fools' Day, they are publishing an essay on microscopy, how they got into it, and what it means to them,
+                complete with a gallery of their favorite microscopy photos.</p>
+
+            <p>Or, if someone typically writes text, they could make a video instead. Or show off their hobby (like
+                juggling, or cooking, or creative writing, …)</p>
+
+            <p>Anything that makes the creator proud, but would be totally unexpected to their audience.</p>
+
+            <p>We figure that this is a great way to be excited about a much broader range of things, things you
+                normally don't get a chance to, and it'll be surprising and enriching for readers (or watchers, or
+                listeners). The spirit of April Fools' Day without any of the cringe.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1>Our projects</h1>
+
+            <p>It's not April 1st yet, so stay tuned.</p>
+
+            <ul class="masonry">
+                {% for project in site.data.projects %}
+                    <li>
+                        <article>
+                            <div><time datetime="{{ project.date }}">{{ project.date | date: "%b %e, %Y" }}</time></div>
+                            <h2><a href="{{ project.link }}">{{ project.title }}</a></h2>
+                            <p class="hyphenate">{{ project.abstract }}</p>
+                            <div class="author">{{ project.author }}</div>
+                        </article>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <p>Add yours? Read on.</p>
+        </div>
+    </section>
+
+    <section class="highlight">
+        <div class="container hyphenate">
+            <h1>FAQs</h1>
+
+            <dl>
+                <dt>Is this a joke?</dt>
+
+                <dd>Do you think we registered a novelty domain and had <a
+                        href="https://www.instagram.com/wolf.pupy/">an artist</a> draw a logo as a joke?</dd>
+
+                <dt>Who are you?</dt>
+
+                <dd>The initial idea is courtesy of <a href="https://hillelwayne.com/">Hillel Wayne</a>, who recruited a
+                    bunch of people to participate early 2022.
+                    This website is maintained by <a href="https://lars.hupel.info/">Lars Hupel</a>.
+                </dd>
+
+                <dt>How can I participate?</dt>
+
+                <dd>Do you have an idea that fits the spirit of the April Cools' Day?
+                    Excellent. Get creating, and once you're done, send a pull request to <a
+                        href="https://github.com/april-cools/april-cools.github.io">the repository of this website</a>.
+                </dd>
+
+                <dt>Where is your privacy policy?</dt>
+
+                <dd>This page is hosted on GitHub Pages. We do not store any cookies. We do not store any data. Although
+                    we'd happily take an article about cookies.</dd>
+            </dl>
+        </div>
+    </section>
+    <footer class="bg">
+        <div class="container">
+            Artwork &copy; 2022 by Wolf Pupy.
+            Manifesto &amp; Design &copy; 2022 by Hillel Wayne &amp; Lars Hupel.
+            Font by Huerta Tipográfica.
+            Projects &copy; their individual authors.
+        </div>
+    </footer>
+</body>
+
+</html>
