@@ -80,6 +80,11 @@ header img {
     text-align: justify;
 }
 
+.nohyphenate {
+    hyphens: none;
+    text-align: left;
+}
+
 .masonry {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
