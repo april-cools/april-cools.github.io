@@ -1,0 +1,40 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="https://www.aprilcools.club/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.aprilcools.club/" rel="alternate" type="text/html" hreflang="en" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>https://www.aprilcools.club/feed.xml</id>
+
+  <title type="html">April Cools' Club</title>
+
+  <author>
+    <name>April Cools' Club</name>
+    <uri>https://www.aprilcools.club/</uri>
+  </author>
+
+  {% assign projects = site.data.projects | sort: 'date' | reverse %}
+
+  {% for project in projects %}
+    <entry xml:lang="en">
+      <title type="html">{{ project.title | xml_escape }}</title>
+      <link href="{{ project.link }}" rel="alternate" type="text/html" title="{{ project.title | xml_escape }}" />
+      <published>{{ project.date | date_to_xmlschema }}</published>
+      <updated>{{ project.date | date_to_xmlschema }}</updated>
+      <id>tag:www.aprilcools.club,{{ project.date | date: "%Y-%m-%d" }}:{{ project.title | slugify: "ascii" }}</id>
+
+      <summary type="html">
+        {{ project.abstract | xml_escape }}
+      </summary>
+
+      {% if project.author %}
+        <author>
+          <name>{{ project.author }}</name>
+        </author>
+      {% endif %}
+    </entry>
+  {% endfor %}
+</feed>
+
