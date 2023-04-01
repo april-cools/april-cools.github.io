@@ -3,6 +3,21 @@
   title: "We're Knot Friends"
   abstract: The communal activity of making friendship bracelets, revisited in my thirties.
   author: Jeremy Kun
+- date: 2023-04-01
+  link: "https://hilton.org.uk/blog/chicken-rice"
+  title: Simple chicken rice
+  abstract: Cutting corners to make quick single-portion Hainanese chicken rice
+  author: Peter Hilton
+- date: 2023-04-01
+  link: "https://www.hillelwayne.com/post/weird-things-you-can-buy/"
+  title: "Ten weird things you can buy online (and why you would)"
+  abstract: Have you ever seen those lists of weird things you can buy online? It’s always just novelties and gag gifts. I’m much more interested in the weird things with a legitimate use case.
+  author: Hillel Wayne
+- date: 2023-04-01
+  link: "https://predr.ag/blog/mediocrity-can-be-a-sign-of-excellence/"
+  title: "Mediocrity can be a sign of excellence"
+  abstract: Three vignettes on finding and hiring great people by playing Moneyball
+  author: Predrag Gruevski
 - date: 2022-04-01
   link: "https://chelseatroy.com/2022/04/01/coffee-and-me-a-seven-year-love-affair/"
   title: "Coffee and Me: A Seven Year Love Affair"
@@ -57,18 +72,3 @@
   title: The right tempo for renaissance polyphony
   abstract: How fast to sing sixteenth century church music
   author: Peter Hilton
-- date: 2023-04-01
-  link: "https://hilton.org.uk/blog/chicken-rice"
-  title: Simple chicken rice
-  abstract: Cutting corners to make quick single-portion Hainanese chicken rice
-  author: Peter Hilton
-- date: 2023-04-01
-  link: "https://www.hillelwayne.com/post/weird-things-you-can-buy/"
-  title: "Ten weird things you can buy online (and why you would)"
-  abstract: Have you ever seen those lists of weird things you can buy online? It’s always just novelties and gag gifts. I’m much more interested in the weird things with a legitimate use case.
-  author: Hillel Wayne
-- date: 2023-04-01
-  link: "https://predr.ag/blog/mediocrity-can-be-a-sign-of-excellence/"
-  title: "Mediocrity can be a sign of excellence"
-  abstract: Three vignettes on finding and hiring great people by playing Moneyball
-  author: Predrag Gruevski
