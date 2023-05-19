@@ -1,4 +1,9 @@
 - date: 2023-04-01
+  link: "https://ttto.cafe/tofu"
+  title: "100 Incredible Tofu Recipes"
+  abstract: Media gives you listicles. Like a disease
+  author: ttto
+- date: 2023-04-01
   link: "https://joe-cecil.com/whats-in-a-username/"
   title: "What's in a username?"
   abstract: Why did you call yourself spigo900, of all things?
@@ -47,6 +52,7 @@
   link: "https://ttto.cafe/midaregami"
   title: Midaregami
   abstract: A translation of the first five poems of the Midaregami, a historic (and extremely good) compilation of poetry. Three of them have never been seen in English before!
+  author: ttto
 - date: 2022-04-01
   link: "https://benbrubaker.com/on-error/"
   title: On Error

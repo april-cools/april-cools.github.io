@@ -19,9 +19,7 @@
                 <div><time datetime="{{ project.date }}">{{ project.date | date: "%b %e, %Y" }}</time></div>
                 <h2><a href="{{ project.link }}">{{ project.title }}</a></h2>
                 <p class="hyphenate">{{ project.abstract }}</p>
-                {% if project.author %}
-                    <div class="author">{{ project.author }}</div>
-                {% endif %}
+                <div class="author">{{ project.author }}</div>
             </article>
         </li>
     {% endfor %}

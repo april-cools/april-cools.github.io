@@ -29,11 +29,9 @@
         {{ project.abstract | xml_escape }}
       </summary>
 
-      {% if project.author %}
-        <author>
-          <name>{{ project.author }}</name>
-        </author>
-      {% endif %}
+      <author>
+        <name>{{ project.author }}</name>
+      </author>
     </entry>
   {% endfor %}
 </feed>
