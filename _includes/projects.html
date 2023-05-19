@@ -1,0 +1,28 @@
+{% assign projects = site.data.projects | sort: "date" | reverse %}
+
+{% assign last_year = projects | first %}
+{% assign last_year = last_year.date | date: "%Y" %}
+
+<h2>{{ last_year }}</h2>
+
+<ul class="masonry">
+    {% for project in projects %}
+        {% assign item_year = project.date | date: "%Y" %}
+        {% if item_year != last_year %}
+            </ul>
+            <h2>{{ item_year }}</h2>
+            <ul class="masonry">
+        {% endif %}
+        {% assign last_year = item_year %}
+        <li>
+            <article>
+                <div><time datetime="{{ project.date }}">{{ project.date | date: "%b %e, %Y" }}</time></div>
+                <h2><a href="{{ project.link }}">{{ project.title }}</a></h2>
+                <p class="hyphenate">{{ project.abstract }}</p>
+                {% if project.author %}
+                    <div class="author">{{ project.author }}</div>
+                {% endif %}
+            </article>
+        </li>
+    {% endfor %}
+</ul>

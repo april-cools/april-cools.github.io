@@ -65,7 +65,7 @@
             <p>We figure that this is a great way to be excited about a much broader range of things, things you
                 normally don't get a chance to, and it'll be surprising and enriching for readers (or watchers, or
                 listeners). The spirit of April Fools' Day without any of the cringe.</p>
-            
+
             <p>Want to contribute? See <a href="#faq">the FAQ below</a> for instructions.</p>
         </div>
     </section>
@@ -74,20 +74,7 @@
         <div class="container">
             <h1>Our projects</h1>
 
-            <ul class="masonry">
-                {% for project in site.data.projects %}
-                    <li>
-                        <article>
-                            <div><time datetime="{{ project.date }}">{{ project.date | date: "%b %e, %Y" }}</time></div>
-                            <h2><a href="{{ project.link }}">{{ project.title }}</a></h2>
-                            <p class="hyphenate">{{ project.abstract }}</p>
-                            {% if project.author %}
-                                <div class="author">{{ project.author }}</div>
-                            {% endif %}
-                        </article>
-                    </li>
-                {% endfor %}
-            </ul>
+            {% include projects.html %}
 
             <p>Add yours? Read on.</p>
         </div>
