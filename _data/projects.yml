@@ -4,6 +4,11 @@
   abstract: "Decaf has a bad reputation. How did it get this reputation, and should it still?"
   author: Nicole Tietz-Sokolskaya
 - date: 2024-04-01
+  link: "https://schmidhuberj.de/2024/04/01/books-games-movies.html"
+  title: "Books, Games and Movies"
+  abstract: "I love books, games and movies. So I thought why not show off some of my favorites?"
+  author: Schmiddi
+- date: 2024-04-01
   link: "https://lars.hupel.info/articles/gardening/"
   title: "How I became a gardener"
   abstract: About one and a half years ago, we moved to a place with a decently-sized garden. Initially confused about whether to do anything with it, let alone what to do with it, I somehow ended up slowly becoming a gardener. Despite my total and utter cluelessness, now we have raised beds.
@@ -28,6 +33,11 @@
   title: "The WiFi only works when it's raining"
   abstract: "The strangest hardware problem I've ever had to debug."
   author: Predrag Gruevski
+- date: 2024-04-01
+  link: https://kat.bio/blog/a-new-hope
+  title: "A New Hope"
+  abstract: "A letter to and about the things that made me what I am."
+  author: Amogh Lele
 - date: 2023-04-01
   link: "https://ttto.cafe/tofu"
   title: "100 Incredible Tofu Recipes"
