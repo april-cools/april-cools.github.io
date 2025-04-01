@@ -3,6 +3,21 @@
   title: "My Adidas"
   abstract: "A reflection on how I came to buy a pair of Superstars every year for the last 20 years."
   author: James Thomas
+- date: 2025-04-01
+  link: https://blog.clement.delafargue.name/posts/2025-04-01-my-coffee-workflow.html
+  title: "My coffee setup"
+  abstract: "A summary of how I brew coffee at home"
+  author: Clément Delafargue
+- date: 2025-04-01
+  link: "https://open.substack.com/pub/uxmichaelco/p/dries-van-noten-in-five-looks"
+  title: Dries van Noten in Five Looks
+  abstract: Interpreting the work of my favourite fashion designer in five looks
+  author: Michael Kibedi
+- date: 2025-04-01
+  link: https://jeremykun.com/2025/04/01/does-baby-have-hat/
+  title: "Does Baby Have Hat"
+  abstract: "On impact and building self-reliance with computers."
+  author: Jeremy Kun
 - date: 2024-04-01
   link: https://davi.sh/blog/2024/04/dune/
   title: "The Spice Didn't Always Flow"
