@@ -1,4 +1,9 @@
 - date: 2025-04-01
+  link: "https://www.hillelwayne.com/post/vidja-games/"
+  title: "Gamer Games for Non-Gamers"
+  abstract: "The best videogames to try if you haven't played games before."
+  author: Hillel Wayne
+- date: 2025-04-01
   link: https://predr.ag/blog/xorry-not-sorry-most-amusing-security-flaws-ive-discovered/
   title: "XORry Not Sorry: The Most Amusing Security Flaws I've Discovered"
   abstract: "Building your own cryptographic protocols, and why you probably shouldn't."
