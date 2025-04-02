@@ -1,4 +1,9 @@
 - date: 2025-04-01
+  link: "https://danso.ca/blog/chatgpt/"
+  title: "Tout le monde déteste l'IA"
+  abstract: "How reliably does chatgpt generate correct answers?"
+  author: danso
+- date: 2025-04-01
   link: "https://lars.hupel.info/articles/stonks/"
   title: "What's the yield on my stonks"
   abstract: "At some point I wondered what the actual yearly interest of my portfolio is? Let’s figure it out."
