@@ -103,6 +103,11 @@
   title: "This music seems to be in the air..."
   abstract: "A playlist for the times to come"
   author: Josselin Auguste
+- date: 2025-04-05
+  link: "https://blog.waleedkhan.name/language-learning-anecdotes/"
+  title: "Language-learning anecdotes"
+  abstract: "Some anecdotes from my various experiences learning languages, including Urdu, Polish, Latin, and American Sign Language."
+  author: "Waleed Khan"
 - date: 2024-04-01
   link: https://davi.sh/blog/2024/04/dune/
   title: "The Spice Didn't Always Flow"
