@@ -38,6 +38,22 @@ a:hover, a:focus {
     color: black;
 }
 
+p.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+p.submit a {
+    padding: .5em;
+    border-radius: 3px;
+    color: var(--light-yellow);
+    background-color: var(--dark-brown);
+    box-shadow: 0px 0px 10px 3px var(--dark-brown);
+    text-decoration: none;
+}
+
 em {
     font-style: normal;
     text-decoration: underline dotted;
