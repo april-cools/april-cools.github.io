@@ -1,4 +1,9 @@
 - date: 2026-04-01
+  link: "https://hey.georgie.nu/stuff-i-recommend/"
+  title: "A non-exhaustive list of stuff I recommend"
+  abstract: "Various things I recommend, including food, clothes, services, and other fun things."
+  author: "Georgie Cooke"
+- date: 2026-04-01
   link: "https://unnamed.website/posts/3d-printing-trombone/"
   title: "3D-printing a Trombone"
   abstract: "Building a perfectly playable plastic trombone for only $30"
