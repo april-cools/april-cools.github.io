@@ -3,10 +3,15 @@
   title: "How can coffee taste peachy?"
   abstract: "My personal cheat sheet to help you better understand, buy, and enjoy coffee. With a few roasters recommendations in Finland."
   author: "Goulven Clec'h"
+- date: 2026-04-03
+  link: "https://blog.adamchalmers.com/learning-about-chinese-history/"
+  title: "My year of reading Chinese history"
+  abstract: "Why I read so much Chinese history last year"
+  author: "Adam Chalmers"
 - date: 2026-04-01
-  link: https://fpsvogel.com/posts/2026/spoken-latin
-  title: Spoken Latin
-  abstract: The merits of spoken Latin as a hobby language, and how I ended up in a Latin immersion program in Kentucky.
+  link: "https://fpsvogel.com/posts/2026/spoken-latin"
+  title: "Spoken Latin"
+  abstract: "The merits of spoken Latin as a hobby language, and how I ended up in a Latin immersion program in Kentucky."
   author: Felipe Vogel
 - date: 2026-04-01
   link: "https://pixelo789.codeberg.page/blog/2026-04-01-mineclonia-world-tour/"
